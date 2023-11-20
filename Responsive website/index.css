@@ -1,0 +1,44 @@
+footer{
+  background-color: lightgrey;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 99px;
+}
+
+h1{
+  text-align: center;
+}
+
+body{
+  background-color: darkgray;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .image-text {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+  }
+
+  .image-text img {
+    width: 50%;
+    margin-right: 20px;
+  }
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+  .image-text {
+      margin-bottom: 30px;
+  }
+
+  .image-text img {
+      width: 100%; 
+      margin-bottom: 10px;
+  }
+
+  .desktop-text {
+      display: none;
+  }
+}
